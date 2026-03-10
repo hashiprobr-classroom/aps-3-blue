@@ -1,3 +1,5 @@
+package br.edu.insper.desagil.aps3.vapor;
+
 import java.util.HashMap;
 
 public class Jogo {
@@ -28,7 +30,7 @@ public class Jogo {
     }
 
     public double getMediaAvaliacoes() {
-        if (avaliacoes.size() == 0) {
+        if (avaliacoes.isEmpty()) {
             return 0;
         }
 
